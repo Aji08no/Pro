@@ -1,0 +1,17 @@
+<suite name="suite">
+    <listeners>
+        <listener class-name="Listeners.ExtentReportListener"/>
+    </listeners>
+    <test name="test">
+        <classes>
+            <class name="Web_Sanity.Test_Login">
+<!--                <methods>-->
+<!--                    <include name="LoginTest"/>-->
+<!--                </methods>-->
+            </class>
+<!--            <class name="Web_Sanity.Test_Practice" />-->
+<!--            <class name="Web_Sanity.Test_Provider" />-->
+<!--            <class name="Web_Sanity.Test_Mapping"/>-->
+        </classes>
+    </test>
+</suite>
